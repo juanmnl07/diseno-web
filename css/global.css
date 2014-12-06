@@ -4,7 +4,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Open Sans', Sans;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -13,20 +13,21 @@ a {
 
 .wrapper {
 	width: 100%;
-	border: 1px solid #000;
+	background-color:#ffffff;
 }
 
 .inner {
 	width: 1000px;
-	margin: 0 auto;
+	margin: 5px auto;
+	background-color:#F7F8F8;
+	height:100%;
+	display:block;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
 }
 
 ul li {
 	list-style: none;
-}
-
-.menu, .footer{
-	border: 1px solid #000;
 }
 
 ul#nav-secundario {
@@ -55,10 +56,16 @@ ul#nav-secundario li#first {
 
 #logo-principal img {
 	border: 1px solid #000;
+	width: 220px;
+	height: 150px;
+	position: relative;
+	top: -25px;
+	left: 10px;
 }
 
 #menu-principal {
 	min-height: 100px;
+	margin-right:10px;
 }
 
 ul#nav-principal {
@@ -75,21 +82,23 @@ ul#nav-principal li.last {
 }
 
 ul#nav-principal li {
-	border: 1px solid red;
+	border: 1px solid #419196;
 	margin-right: 5px;
+	border-radius: 5px;
 }
 
 ul#nav-principal li a {
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 400;
 	display: block;
 	padding: 15px 46px;
+	background-color:#C2DEDD;
+	color: #419196;
+	text-transform: uppercase;
+	
 }
 
-#footer-secundario .inner{
-	height: 100 }
-
-#footer-secundario .inner p {
+#footer-secundario p {
 	margin: 25px 0;
 	width: 100%;
 	float: left;
@@ -133,18 +142,15 @@ ul#nav-principal li a {
 }
 
 #banner-principal {
-	min-height: 480px;
-}
-
-#servicios-resumenes {
-	margin-top: 92px;
+	min-height: 340px;
 }
 
 #servicios-resumenes .servicio {
-	width: 32%;
+	width: 30%;
 	float: left;
 	min-height: 650px;
 	margin-right: 20px;
+	padding: 10px;
 }
 
 #servicios-resumenes .servicio img {
@@ -156,12 +162,24 @@ ul#nav-principal li a {
 #servicios-resumenes .servicio h3 {
 	margin: 15px 0;
 	padding: 5px;
-	border: 1px solid red;
 	text-align: center;
+	min-height: 20px;
+}
+
+#servicios-resumenes .servicio h3 { 
+
+	background-color: #FBBD96;
+	border: 1px solid #DF4555;
+	border-radius: 5px;
+}
+
+#servicios-resumenes .servicio h3 a{ 
+	color: #DF4555;
 }
 
 .main-content.home {
 	min-height: 1400px;
+	padding: 50px 0px;
 }
 
 #servicios-resumenes #servicio-3, #servicios-resumenes #servicio-6{
