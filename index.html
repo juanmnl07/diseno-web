@@ -6,6 +6,11 @@
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="css/global.css">
+<!-- Place somewhere in the <head> of your document -->
+<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="flexslider/jquery.flexslider.js"></script>
+<script src="js/global.js"></script>
 
 </head>
 <body>
@@ -48,7 +53,14 @@
     <div class="wrapper" id="below-content">
     	<div class="inner">
             <div id="banner-principal">
-                <!-- flexslider> -->
+                <!-- Place somewhere in the <body> of your page -->
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                      <img src="imagenes/slide1.jpg" />
+                    </li>
+                  </ul>
+                </div>
               <div class="banner">
               </div>
             </div>
@@ -73,8 +85,8 @@
       </div>-->
             <div id="servicios-resumenes">
               <div id="servicio-1" class="servicio">
-                <img src="#">
-                <h3 class="titulo"><a href="servicio1.html">Servicio 1</a></h3>
+                <img src="imagenes/pintura.jpg">
+                <h3 class="titulo"><a href="servicio1.html">Pintura</a></h3>
                 <p class="detalle">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit. 
                                     Nullam luctus nisi eget 
@@ -84,11 +96,13 @@
                                     Nullam convallis pulvinar 
                                     tortor.
                 </p>
-                <a class="ver-mas" href="servicio1.html">Ver más</a>
+                <div class="enlace">
+                	<a class="ver-mas" href="servicio1.html">Ver más</a>
+                </div>
               </div>
               <div id="servicio-2" class="servicio">
-                <img src="#">
-                <h3 class="titulo"><a href="servicio2.html">Servicio 2</a></h3>
+                <img src="imagenes/creatividad.jpg">
+                <h3 class="titulo"><a href="servicio2.html">Creatividad</a></h3>
                 <p class="detalle">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit. 
                                     Nullam luctus nisi eget 
@@ -98,11 +112,13 @@
                                     Nullam convallis pulvinar 
                                     tortor.
                 </p>
-                <a class="ver-mas" href="servicio2.html">Ver más</a>
+                <div class="enlace">
+                	<a class="ver-mas" href="servicio2.html">Ver más</a>
+                </div>
               </div>
               <div id="servicio-3" class="servicio">
-                <img src="#">
-                <h3 class="titulo"><a href="servicio3.html">Servicio 3</a></h3>
+                <img src="imagenes/lectura.jpg">
+                <h3 class="titulo"><a href="servicio3.html">Lectura</a></h3>
                 <p class="detalle">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit. 
                                     Nullam luctus nisi eget 
@@ -112,11 +128,13 @@
                                     Nullam convallis pulvinar 
                                     tortor.
                 </p>
-                <a class="ver-mas" href="servicio3.html">Ver más</a>
+                <div class="enlace">
+                	<a class="ver-mas" href="servicio3.html">Ver más</a>
+                </div>
               </div>
               <div id="servicio-4" class="servicio">
-                <img src="#">
-                <h3 class="titulo"><a href="servicio4.html">Servicio 4</a></h3>
+                <img src="imagenes/nutricion.jpg">
+                <h3 class="titulo"><a href="servicio4.html">Alimentación</a></h3>
                 <p class="detalle">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit. 
                                     Nullam luctus nisi eget 
@@ -126,11 +144,13 @@
                                     Nullam convallis pulvinar 
                                     tortor.
                 </p>
-                <a class="ver-mas" href="servicio4.html">Ver más</a>
+                <div class="enlace">
+                	<a class="ver-mas" href="servicio4.html">Ver más</a>
+                </div>
               </div>
               <div id="servicio-5" class="servicio">
-                <img src="#">
-                <h3 class="titulo"><a href="servicio5.html">Servicio 5</a></h3>
+                <img src="imagenes/musica.jpg">
+                <h3 class="titulo"><a href="servicio5.html">Musica</a></h3>
                 <p class="detalle">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit. 
                                     Nullam luctus nisi eget 
@@ -140,11 +160,13 @@
                                     Nullam convallis pulvinar 
                                     tortor.
                 </p>
-                <a class="ver-mas" href="servicio5.html">Ver más</a>
+                <div class="enlace">
+                	<a class="ver-mas" href="servicio5.html">Ver más</a>
+                </div>
               </div>
               <div id="servicio-6" class="servicio">
-                <img src="#">
-                <h3 class="titulo"><a href="servicio6.html">Servicio 6</a></h3>
+                <img src="imagenes/juegos-aire-libre.jpg">
+                <h3 class="titulo"><a href="servicio6.html">Juegos al aire libre</a></h3>
                 <p class="detalle">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit. 
                                     Nullam luctus nisi eget 
@@ -154,7 +176,9 @@
                                     Nullam convallis pulvinar 
                                     tortor.
                 </p>
-                <a class="ver-mas" href="servicio6.html">Ver más</a>
+                <div class="enlace">
+                	<a class="ver-mas" href="servicio6.html">Ver más</a>
+                </div>
               </div>
             </div>
           </div>
