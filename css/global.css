@@ -82,9 +82,7 @@ ul#nav-principal li.last {
 }
 
 ul#nav-principal li {
-	border: 1px solid #419196;
 	margin-right: 5px;
-	border-radius: 5px;
 }
 
 ul#nav-principal li a {
@@ -104,6 +102,7 @@ ul#nav-principal li a {
 	float: left;
 	font-size: 20px;
 	text-align: center;
+	color: #848588;
 }
 
 #footer-principal {
@@ -127,14 +126,22 @@ ul#nav-principal li a {
 
 .bloque-footer ul li {
 	margin-bottom: 10px;
+	color: #848588;
+}
+
+.bloque-footer ul li a{
+	color: #848588;
 }
 
 .bloque-footer h2 {
 	margin-bottom: 50px;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #419196;
 }
 
 #bloque-footer-1 {
-	width: 230px;
+	width: 260px;
 }
 
 #bloque-footer-2 {
@@ -148,38 +155,59 @@ ul#nav-principal li a {
 #servicios-resumenes .servicio {
 	width: 30%;
 	float: left;
-	min-height: 650px;
+	min-height: 600px;
 	margin-right: 20px;
 	padding: 10px;
 }
 
 #servicios-resumenes .servicio img {
-	min-height: 250px;
-	border: 1px solid red;
-	min-width: 100%;
+	min-height: auto;
+	width: 100%;
 }
 
 #servicios-resumenes .servicio h3 {
 	margin: 15px 0;
-	padding: 5px;
 	text-align: center;
 	min-height: 20px;
 }
 
 #servicios-resumenes .servicio h3 { 
 
-	background-color: #FBBD96;
-	border: 1px solid #DF4555;
-	border-radius: 5px;
+	margin: 10px 0 15px 0;
+	z-index:1;
 }
 
 #servicios-resumenes .servicio h3 a{ 
-	color: #DF4555;
+	color: #F2672D;
+	padding: 10px 5px;
+	display: block;
+	text-transform:uppercase;
+	border-bottom: 1px solid #DF4555;
+}
+
+#servicios-resumenes .servicio .detalle {
+	background-color: #fff;
+	padding: 30px 25px;
+	border: 1px solid #ddd;
+	color: #848588;
+}
+
+#servicios-resumenes .servicio .enlace {
+	width: 100px;
+	margin: -10px auto 0;
+}
+
+#servicios-resumenes .servicio .ver-mas {
+	margin: 0 auto;
+	background-color: #75C58F;
+	padding: 10px 15px;
+	color: #fff;
+	font-weight: 600;
 }
 
 .main-content.home {
-	min-height: 1400px;
-	padding: 50px 0px;
+	min-height: 1300px;
+	padding: 90px 0px;
 }
 
 #servicios-resumenes #servicio-3, #servicios-resumenes #servicio-6{
